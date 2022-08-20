@@ -1,5 +1,9 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "hello-swc": "packages/hello-swc",
+    "hello-tsc": "packages/hello-tsc",
+    "hello-tsc-npm": "packages/hello-tsc-npm"
+  }
 }
